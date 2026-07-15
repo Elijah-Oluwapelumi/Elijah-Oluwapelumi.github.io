@@ -1,7 +1,7 @@
 # ESIL Data Course 
 
-I'm a Geospatial Scientist passionate about solving real-world problems using GIS, Remote Sensing, Python, SQL, Power BI, and Google Earth Engine. I enjoy transforming complex spatial and business data into meaningful insights that support informed decision-making.
-
+I leverage GIS, Remote Sensing, Earth Observation, and Data Analytics to transform complex spatial data into actionable insights for environmental sustainability, security, and evidence-based decision-making.
+ 
 * Contact 
 * Email
 * LinkedIN
