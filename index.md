@@ -6,5 +6,4 @@ I leverage GIS, Remote Sensing, Earth Observation, and Data Analytics to transfo
 * Email
 * LinkedIN
 
-
-![Markdown Logo is here.](https://www.fullstackpython.com/img/logos/markdown.png)
+[FUTA SITE](https://www.futa.edu.ng/)
