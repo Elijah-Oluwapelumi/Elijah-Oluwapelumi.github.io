@@ -218,4 +218,202 @@ padding:40px;
 
 background:#06101b;
 
+/* ===================================
+SECTION TITLES
+=================================== */
+
+section h2{
+
+text-align:center;
+
+font-size:42px;
+
+margin-bottom:50px;
+
+color:#7be495;
+
+}
+
+/* ===================================
+SNAPSHOT
+=================================== */
+
+.snapshot{
+
+padding:100px 10%;
+
+background:#0c1d2b;
+
+}
+
+.snapshot-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+gap:25px;
+
+}
+
+.snapshot-card{
+
+background:#13283b;
+
+padding:30px;
+
+border-radius:15px;
+
+transition:.3s;
+
+}
+
+.snapshot-card:hover{
+
+transform:translateY(-8px);
+
+}
+
+/* ===================================
+RESEARCH
+=================================== */
+
+.research{
+
+padding:100px 10%;
+
+}
+
+.research-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+gap:30px;
+
+}
+
+.research-card{
+
+background:#102536;
+
+padding:35px;
+
+text-align:center;
+
+border-radius:20px;
+
+transition:.3s;
+
+}
+
+.research-card:hover{
+
+background:#1b3d57;
+
+transform:translateY(-8px);
+
+}
+
+/* ===================================
+SKILLS
+=================================== */
+
+.skills{
+
+padding:100px 10%;
+
+background:#0c1d2b;
+
+}
+
+.skills-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:25px;
+
+}
+
+.skill-card{
+
+background:#173247;
+
+padding:25px;
+
+border-radius:12px;
+
+text-align:center;
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+.skill-card:hover{
+
+background:#2d6a4f;
+
+}
+
+/* ===================================
+HIGHLIGHTS
+=================================== */
+
+.highlights{
+
+padding:100px 10%;
+
+}
+
+.highlight-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+gap:30px;
+
+}
+
+.highlight-card{
+
+background:#13283b;
+
+padding:35px;
+
+border-radius:20px;
+
+}
+
+.highlight-card h3{
+
+margin-bottom:20px;
+
+color:#7be495;
+
+}
+
+.highlight-card p{
+
+line-height:1.8;
+
+margin-bottom:25px;
+
+}
+
+.highlight-card a{
+
+text-decoration:none;
+
+color:#7be495;
+
+font-weight:600;
+
+}  
+
 }
