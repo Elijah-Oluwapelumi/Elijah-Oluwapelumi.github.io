@@ -1,419 +1,247 @@
+/* =====================================================
+GLOBAL RESET
+===================================================== */
+
 *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-margin:0;
-
-padding:0;
-
-box-sizing:border-box;
-
+html{
+    scroll-behavior:smooth;
 }
 
 body{
 
-font-family:'Poppins',sans-serif;
+    font-family:'Poppins',sans-serif;
 
-background:#08131f;
+    background:#08131f;
 
-color:white;
+    color:#ffffff;
+
+    line-height:1.7;
 
 }
 
-nav{
+img{
 
-display:flex;
+    max-width:100%;
 
-justify-content:space-between;
+    display:block;
 
-align-items:center;
+}
 
-padding:20px 8%;
+a{
 
-position:fixed;
+    text-decoration:none;
 
-width:100%;
+}
 
-background:#08131fdc;
+section{
 
-backdrop-filter:blur(10px);
+    padding:100px 0;
 
-z-index:999;
+}
+
+/* =====================================================
+GLOBAL CONTAINER
+===================================================== */
+
+.container{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:auto;
+
+}
+
+/* =====================================================
+NAVIGATION
+===================================================== */
+
+.navbar{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    background:rgba(8,19,31,.95);
+
+    backdrop-filter:blur(10px);
+
+    z-index:999;
+
+}
+
+.navbar .container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    height:80px;
 
 }
 
 .logo{
 
-font-size:24px;
+    font-size:24px;
 
-font-weight:700;
+    font-weight:700;
 
-}
-
-nav ul{
-
-display:flex;
-
-list-style:none;
-
-gap:35px;
+    color:white;
 
 }
 
-nav a{
+.nav-links{
 
-text-decoration:none;
+    display:flex;
 
-color:white;
+    gap:35px;
 
-transition:.3s;
+    list-style:none;
+
+}
+
+.nav-links a{
+
+    color:white;
+
+    font-weight:500;
+
+    transition:.3s;
 
 }
 
-nav a:hover{
+.nav-links a:hover{
 
-color:#4CAF50;
+    color:#68d391;
 
 }
+
+/* =====================================================
+HERO
+===================================================== */
 
 .hero{
 
-height:100vh;
+    height:100vh;
 
-display:flex;
+    background:url("../images/hero.png") center/cover no-repeat;
 
-justify-content:center;
+    position:relative;
 
-align-items:center;
+    display:flex;
 
-text-align:center;
+    align-items:center;
 
-background:url("../images/hero.png");
+}
 
-background-size:cover;
+.overlay{
 
-background-position:center;
+    position:absolute;
 
-padding:20px;
+    inset:0;
+
+    background:rgba(0,0,0,.55);
 
 }
 
 .hero-content{
 
-max-width:800px;
+    position:relative;
 
-background:rgba(0,0,0,.45);
+    z-index:2;
 
-padding:40px;
+    max-width:750px;
 
-border-radius:20px;
+    color:white;
 
 }
 
 .hero h1{
 
-font-size:60px;
+    font-size:64px;
 
-margin-bottom:20px;
+    margin-bottom:20px;
 
 }
 
 .hero h2{
 
-font-weight:400;
+    font-size:28px;
 
-margin-bottom:20px;
+    color:#7be495;
 
-color:#79d279;
+    margin-bottom:20px;
+
+    font-weight:500;
 
 }
 
 .hero p{
 
-line-height:1.8;
+    font-size:18px;
 
-margin-bottom:30px;
+    margin-bottom:40px;
+
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    gap:20px;
 
 }
 
 .btn{
 
-background:#4CAF50;
+    background:#2f855a;
 
-padding:15px 30px;
+    color:white;
 
-border-radius:8px;
+    padding:15px 35px;
 
-text-decoration:none;
+    border-radius:8px;
 
-color:white;
+    transition:.3s;
 
-margin-right:15px;
+}
+
+.btn:hover{
+
+    background:#38a169;
 
 }
 
 .btn-outline{
 
-border:2px solid white;
+    border:2px solid white;
 
-padding:15px 30px;
+    color:white;
 
-border-radius:8px;
+    padding:15px 35px;
 
-text-decoration:none;
+    border-radius:8px;
 
-color:white;
-
-}
-
-.about{
-
-display:flex;
-
-align-items:center;
-
-justify-content:center;
-
-gap:60px;
-
-padding:100px 10%;
-
-flex-wrap:wrap;
+    transition:.3s;
 
 }
 
-.about img{
+.btn-outline:hover{
 
-width:320px;
+    background:white;
 
-border-radius:20px;
-
-}
-
-.about-text{
-
-max-width:700px;
-
-}
-
-.about h2{
-
-margin-bottom:25px;
-
-font-size:38px;
-
-}
-
-.about p{
-
-margin-bottom:20px;
-
-line-height:1.8;
-
-}
-
-footer{
-
-text-align:center;
-
-padding:40px;
-
-background:#06101b;
-
-/* ===================================
-SECTION TITLES
-=================================== */
-
-section h2{
-
-text-align:center;
-
-font-size:42px;
-
-margin-bottom:50px;
-
-color:#7be495;
-
-}
-
-/* ===================================
-SNAPSHOT
-=================================== */
-
-.snapshot{
-
-padding:100px 10%;
-
-background:#0c1d2b;
-
-}
-
-.snapshot-grid{
-
-display:grid;
-
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-
-gap:25px;
-
-}
-
-.snapshot-card{
-
-background:#13283b;
-
-padding:30px;
-
-border-radius:15px;
-
-transition:.3s;
-
-}
-
-.snapshot-card:hover{
-
-transform:translateY(-8px);
-
-}
-
-/* ===================================
-RESEARCH
-=================================== */
-
-.research{
-
-padding:100px 10%;
-
-}
-
-.research-grid{
-
-display:grid;
-
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-
-gap:30px;
-
-}
-
-.research-card{
-
-background:#102536;
-
-padding:35px;
-
-text-align:center;
-
-border-radius:20px;
-
-transition:.3s;
-
-}
-
-.research-card:hover{
-
-background:#1b3d57;
-
-transform:translateY(-8px);
-
-}
-
-/* ===================================
-SKILLS
-=================================== */
-
-.skills{
-
-padding:100px 10%;
-
-background:#0c1d2b;
-
-}
-
-.skills-grid{
-
-display:grid;
-
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-
-gap:25px;
-
-}
-
-.skill-card{
-
-background:#173247;
-
-padding:25px;
-
-border-radius:12px;
-
-text-align:center;
-
-font-weight:600;
-
-transition:.3s;
-
-}
-
-.skill-card:hover{
-
-background:#2d6a4f;
-
-}
-
-/* ===================================
-HIGHLIGHTS
-=================================== */
-
-.highlights{
-
-padding:100px 10%;
-
-}
-
-.highlight-grid{
-
-display:grid;
-
-grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-
-gap:30px;
-
-}
-
-.highlight-card{
-
-background:#13283b;
-
-padding:35px;
-
-border-radius:20px;
-
-}
-
-.highlight-card h3{
-
-margin-bottom:20px;
-
-color:#7be495;
-
-}
-
-.highlight-card p{
-
-line-height:1.8;
-
-margin-bottom:25px;
-
-}
-
-.highlight-card a{
-
-text-decoration:none;
-
-color:#7be495;
-
-font-weight:600;
-
-}  
+    color:#08131f;
 
 }
