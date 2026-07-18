@@ -679,17 +679,19 @@ background:#0d1826;
 
 }
 
-.expertise-grid{
+ .expertise-grid{
 
-display:grid;
+    display:grid;
 
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    grid-template-columns:repeat(2, 1fr);
 
-gap:30px;
+    gap:30px;
 
-margin-top:50px;
+    margin-top:50px;
 
 }
+
+
 
 .expertise-card{
 
@@ -750,6 +752,21 @@ font-size:16px;
 border-bottom:none;
 
 }
+
+/* =====================================================
+RESPONSIVE DESIGN
+===================================================== */
+
+@media (max-width:900px){
+
+    .expertise-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
 
 /* =====================================================
 RESEARCH EXPERIENCE
