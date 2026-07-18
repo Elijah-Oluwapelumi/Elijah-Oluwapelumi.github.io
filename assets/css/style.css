@@ -404,9 +404,9 @@ RESEARCH PORTFOLIO
 
 }
 
-.portfolio-card{
+ .portfolio-card{
 
-    max-width:1100px;
+    max-width:1200px;
 
     margin:60px auto 0;
 
@@ -418,25 +418,29 @@ RESEARCH PORTFOLIO
 
     display:grid;
 
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:42% 58%;
 
     box-shadow:0 20px 45px rgba(0,0,0,.30);
 
 }
 
-.portfolio-image{
+ .portfolio-image{
 
-    height:100%;
+    height:430px;
+
+    overflow:hidden;
 
 }
 
-.portfolio-image img{
+ .portfolio-image img{
 
     width:100%;
 
-    height:100%;
+    height:430px;
 
     object-fit:cover;
+
+    object-position:center;
 
     display:block;
 
