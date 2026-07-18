@@ -20,10 +20,10 @@ tools: [
 ],
 
 view:
-"https://github.com/Elijah-Oluwapelumi/REPOSITORY-1",
+"https://github.com/Elijah-Oluwapelumi?tab=repositories",
 
 github:
-"https://github.com/Elijah-Oluwapelumi/REPOSITORY-1"
+"https://github.com/Elijah-Oluwapelumi?tab=repositories"
 },
 
 {
@@ -41,10 +41,10 @@ tools: [
 ],
 
 view:
-"https://github.com/Elijah-Oluwapelumi/REPOSITORY-2",
+"https://github.com/Elijah-Oluwapelumi/Land-Surface-Temperature-Offa-LGA-Kwara-State",
 
 github:
-"https://github.com/Elijah-Oluwapelumi/REPOSITORY-2"
+"https://github.com/Elijah-Oluwapelumi/Land-Surface-Temperature-Offa-LGA-Kwara-State"
 },
 
 {
@@ -62,10 +62,10 @@ tools: [
 ],
 
 view:
-"https://github.com/Elijah-Oluwapelumi/REPOSITORY-3",
+"https://github.com/Elijah-Oluwapelumi/Coastal-Dynamics-of-Angola-A-Remote-Sensing-and-GIS-Approach-to-Shoreline-and-Bathymetric-Mapping",
 
 github:
-"https://github.com/Elijah-Oluwapelumi/REPOSITORY-3"
+"https://github.com/Elijah-Oluwapelumi/Coastal-Dynamics-of-Angola-A-Remote-Sensing-and-GIS-Approach-to-Shoreline-and-Bathymetric-Mapping"
 }
 
 ];
