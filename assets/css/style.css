@@ -1029,6 +1029,133 @@ ACHIEVEMENTS, AWARDS & HONOURS
 }
 
 /* =====================================================
+FOOTER / CONTACT
+===================================================== */
+
+footer{
+
+    background:#06111c;
+
+    padding:100px 0 40px;
+
+    text-align:center;
+
+}
+
+footer h2{
+
+    font-size:40px;
+
+    margin-bottom:20px;
+
+    color:#ffffff;
+
+}
+
+.footer-text{
+
+    max-width:700px;
+
+    margin:0 auto 60px;
+
+    color:#cfcfcf;
+
+    line-height:1.8;
+
+}
+
+.contact-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:25px;
+
+    margin-bottom:60px;
+
+}
+
+.contact-card{
+
+    background:#13283b;
+
+    padding:30px;
+
+    border-radius:18px;
+
+    transition:.35s;
+
+    border:1px solid rgba(255,255,255,.05);
+
+}
+
+.contact-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#68d391;
+
+    box-shadow:0 18px 35px rgba(0,0,0,.30);
+
+}
+
+.contact-card h3{
+
+    font-size:22px;
+
+    margin-bottom:15px;
+
+    color:#7be495;
+
+}
+
+.contact-card a{
+
+    color:#ffffff;
+
+    word-break:break-word;
+
+    transition:.3s;
+
+}
+
+.contact-card a:hover{
+
+    color:#7be495;
+
+}
+
+.contact-card p{
+
+    color:#d6d6d6;
+
+}
+
+footer hr{
+
+    border:none;
+
+    height:1px;
+
+    background:rgba(255,255,255,.08);
+
+    margin:40px 0 30px;
+
+}
+
+.copyright{
+
+    color:#9ca3af;
+
+    font-size:15px;
+
+    line-height:1.8;
+
+}
+
+
+/* =====================================================
 MOBILE RESPONSIVE
 ===================================================== */
 
@@ -1050,7 +1177,21 @@ MOBILE RESPONSIVE
 
     }
 
+.contact-grid{
+
+    grid-template-columns:1fr;
+
+    }
+
+footer{
+
+    padding:80px 0 30px;
+
+    }
+    
 }
+
+
 
 
 /* =====================================================
