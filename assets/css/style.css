@@ -176,23 +176,49 @@ HERO
 
 }
 
-.hero h2{
+ /* =====================================================
+HERO TYPOGRAPHY
+===================================================== */
 
-    font-size:28px;
+.hero h1{
+
+    font-size:64px;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+    color:#ffffff;
+
+}
+
+.hero-role{
+
+    font-size:24px;
+
+    font-weight:500;
 
     color:#7be495;
 
     margin-bottom:20px;
 
-    font-weight:500;
+    letter-spacing:0.5px;
 
 }
 
-.hero p{
+.hero-description{
 
     font-size:18px;
 
+    line-height:1.9;
+
+    color:#e4e4e4;
+
+    max-width:720px;
+
     margin-bottom:40px;
+
+}
 
 }
 
