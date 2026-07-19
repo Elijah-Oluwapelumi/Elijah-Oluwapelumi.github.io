@@ -780,13 +780,13 @@ RESEARCH EXPERIENCE
 
 }
 
-.timeline{
+ .timeline{
 
     position:relative;
 
-    max-width:900px;
+    width:100%;
 
-    margin:60px auto 0;
+    margin-top:60px;
 
 }
 
