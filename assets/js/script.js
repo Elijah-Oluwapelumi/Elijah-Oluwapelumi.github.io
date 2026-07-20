@@ -66,9 +66,10 @@ view:
 
 github:
 "https://github.com/Elijah-Oluwapelumi/Coastal-Dynamics-of-Angola-A-Remote-Sensing-and-GIS-Approach-to-Shoreline-and-Bathymetric-Mapping"
-}
+},
 
 {
+
 title: "Assessment of Nigeria's UTM Grid Zone Boundaries",
 
 description:
@@ -89,7 +90,7 @@ github:
 "https://github.com/Elijah-Oluwapelumi/Nigeria-UTM-Grid-Zone-Assessment-Identifying-Zones-of-Exclusion"
 }
 
-  
+ 
 ];
 
 let current = 0;
