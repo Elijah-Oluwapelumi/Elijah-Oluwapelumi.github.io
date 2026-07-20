@@ -68,12 +68,12 @@ github:
 "https://github.com/Elijah-Oluwapelumi/Coastal-Dynamics-of-Angola-A-Remote-Sensing-and-GIS-Approach-to-Shoreline-and-Bathymetric-Mapping"
 },
 
-{
-
+ {
 title: "Assessment of Nigeria's UTM Grid Zone Boundaries",
 
 description:
- "Investigated Nigeria's UTM grid zone boundaries using GIS to evaluate whether states fall entirely within individual zones or span multiple UTM zones, challenging common assumptions in national spatial referencing.
+"Investigated Nigeria's UTM grid zone boundaries using GIS to evaluate whether states fall entirely within individual zones or span multiple UTM zones, challenging common assumptions in national spatial referencing.",
+
 image: "assets/images/project4.jpg",
 
 tools: [
