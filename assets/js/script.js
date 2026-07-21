@@ -93,6 +93,18 @@ github:
  
 ];
 
+// ===============================
+// Preload Project Images
+// ===============================
+
+projects.forEach(project => {
+
+    const img = new Image();
+
+    img.src = project.image;
+
+});
+
 let current = 0;
 
 function loadProject(index){
