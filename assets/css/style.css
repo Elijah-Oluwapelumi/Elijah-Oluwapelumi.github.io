@@ -956,7 +956,7 @@ SELECTED WORK WITHIN RESEARCH EXPERIENCE
 
 }
 
-/* =====================================================
+ /* =====================================================
 EMBEDDED INTERACTIVE MAP
 ===================================================== */
 
@@ -966,6 +966,10 @@ EMBEDDED INTERACTIVE MAP
 
     margin-top:25px;
 
+    display:flex;
+
+    justify-content:center;
+
     overflow:hidden;
 
     border-radius:12px;
@@ -974,9 +978,9 @@ EMBEDDED INTERACTIVE MAP
 
 .embedded-map iframe{
 
-    width:100%;
+    width:850px;
 
-    height:650px;
+    height:450px;
 
     border:none;
 
