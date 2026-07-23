@@ -907,6 +907,56 @@ RESEARCH EXPERIENCE
 }
 
 /* =====================================================
+SELECTED WORK WITHIN RESEARCH EXPERIENCE
+===================================================== */
+
+.selected-work{
+
+    margin-top:35px;
+
+    padding:25px;
+
+    background:#0d1b2a;
+
+    border-left:4px solid #2f855a;
+
+    border-radius:12px;
+
+}
+
+.selected-work h4{
+
+    color:#68d391;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    margin-bottom:10px;
+
+}
+
+.selected-work h3{
+
+    font-size:22px;
+
+    margin-bottom:12px;
+
+    color:#ffffff;
+
+}
+
+.selected-work p{
+
+    color:#d6d6d6;
+
+    line-height:1.8;
+
+    margin-bottom:0;
+
+}
+
+/* =====================================================
 ACHIEVEMENTS, AWARDS & HONOURS
 ===================================================== */
 
