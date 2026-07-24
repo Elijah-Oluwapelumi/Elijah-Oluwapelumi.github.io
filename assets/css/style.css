@@ -956,6 +956,22 @@ SELECTED WORK WITHIN RESEARCH EXPERIENCE
 
 }
 
+/* =====================================================
+SELECTED WORK GRID
+===================================================== */
+
+.selected-work-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2, 1fr);
+
+    gap:25px;
+
+    margin-top:35px;
+
+}
+
  /* =====================================================
 EMBEDDED INTERACTIVE MAP
 ===================================================== */
