@@ -94,6 +94,97 @@ github:
 ];
 
 // ===============================
+// ESIIL Selected Work Slider
+// ===============================
+
+const esiilProjects = [
+
+    {
+        title:
+        "Interactive Map of Federal University of Technology Akure, Nigeria",
+
+        description:
+        "Developed an interactive map of the Federal University of Technology Akure using OpenStreetMap data and Python-based geospatial workflows in a GitHub Codespaces Jupyter Notebook environment. The project involved spatial data processing and interactive visualization using Pandas, OSMnx, HoloViews, and hvPlot.",
+
+        file:
+        "assets/images/futa_map2.html"
+    },
+
+
+    {
+        title:
+        "Climate Time-Series Analysis of Fairfield ENE Station",
+
+        description:
+        "Conducted a time-series climate analysis of historical observed temperature records from the Fairfield ENE weather station using climate data from the NCEI–NOAA database. The project involved data preparation, exploratory analysis, and visualization of long-term temperature patterns in a GitHub Codespaces Jupyter Notebook environment using Pandas, HoloViews, and hvPlot.",
+
+        file:
+        "assets/images/fairfield_plot.html"
+    }
+
+];
+
+let currentESIILWork = 0;
+
+
+function loadESIILWork(index){
+
+    const work = esiilProjects[index];
+
+
+    document.getElementById("esiil-work-title").textContent =
+    work.title;
+
+
+    document.getElementById("esiil-work-description").textContent =
+    work.description;
+
+
+    document.getElementById("esiil-work-frame").src =
+    work.file;
+
+
+    document.getElementById("esiil-counter").textContent =
+    `${index + 1} / ${esiilProjects.length}`;
+
+}
+
+
+document.getElementById("esiil-next").addEventListener("click", ()=>{
+
+    currentESIILWork++;
+
+    if(currentESIILWork >= esiilProjects.length){
+
+        currentESIILWork = 0;
+
+    }
+
+    loadESIILWork(currentESIILWork);
+
+});
+
+
+document.getElementById("esiil-previous").addEventListener("click", ()=>{
+
+    currentESIILWork--;
+
+    if(currentESIILWork < 0){
+
+        currentESIILWork = esiilProjects.length - 1;
+
+    }
+
+    loadESIILWork(currentESIILWork);
+
+});
+
+
+loadESIILWork(currentESIILWork);
+
+
+
+// ===============================
 // Preload Project Images
 // ===============================
 
