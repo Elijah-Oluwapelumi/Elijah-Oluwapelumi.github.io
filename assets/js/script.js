@@ -51,7 +51,7 @@ github:
 title: "Environmental Monitoring",
 
 description:
-"Earth Observation techniques for environmental monitoring and sustainable resource management.",
+"This project applies Remote Sensing and GIS techniques to carry out a spatio-temporal analysis of Angola's coastline, integrating bathymetric mapping with automated shoreline detection.",
 
 image: "assets/images/project3.jpg",
 
