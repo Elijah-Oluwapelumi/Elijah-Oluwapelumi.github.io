@@ -137,8 +137,8 @@ const esiilProjects = [
         "NDVI Time-Series Analysis of Vegetation Change",
 
         description:
-        "Analyzed over two decades of MODIS NDVI satellite observations to assess long-term vegetation dynamics in Tubarjal Valley, Saudi Arabia. The time-series revealed relatively low vegetation cover prior to the introduction of large-scale irrigation in 2012, followed by a substantial increase in vegetation that peaked around 2016–2017 before stabilizing in subsequent years. The analysis demonstrates how satellite remote sensing can effectively monitor long-term environmental change and the landscape response to irrigation-driven agricultural development.",
-        file:
+        "Analyzed over two decades of MODIS NDVI satellite observations to evaluate vegetation dynamics in Tubarjal Valley, Saudi Arabia. The analysis identified a distinct transition from sparse vegetation before the implementation of large-scale irrigation in 2012 to sustained vegetation expansion in the following years, with peak greenness observed around 2016–2017. This study highlights the value of Earth Observation data for monitoring environmental change and assessing the impact of irrigation on vegetation patterns over time.",
+         file:
         "assets/images/Tubarjal.html"
     }
  
