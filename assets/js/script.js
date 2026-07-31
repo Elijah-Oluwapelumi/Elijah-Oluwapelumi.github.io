@@ -127,12 +127,21 @@ const esiilProjects = [
         "NDVI Time-Series Analysis of Vegetation Change",
 
         description:
-        "Analyzed over two decades of MODIS NDVI observations to assess vegetation change in Tubarjal Valley, Saudi Arabia. The workflow involved raster preprocessing, temporal aggregation, NDVI change detection, and interactive visualization using Python, xarray, Pandas, hvPlot, and HoloViews within a GitHub Codespaces Jupyter Notebook environment.",
-
+        "Analyzed over two decades of MODIS NDVI observations to evaluate vegetation dynamics in Tubarjal Valley, Saudi Arabia, before and after the implementation of large-scale irrigation in 2012. The workflow integrated raster preprocessing, temporal aggregation, NDVI time-series analysis, and spatial change detection to quantify vegetation recovery and identify areas of significant greening following irrigation. Interactive visualizations were developed using Python, xarray, Pandas, hvPlot, and HoloViews within a GitHub Codespaces Jupyter Notebook environment.",
         file:
-        "assets/images/fairfield_plot.html"
-    }
+        "assets/images/NDVI_Difference_Map.html"
+    },
 
+ {
+        title:
+        "NDVI Time-Series Analysis of Vegetation Change",
+
+        description:
+        "Analyzed over two decades of MODIS NDVI satellite observations to assess long-term vegetation dynamics in Tubarjal Valley, Saudi Arabia. The time-series revealed relatively low vegetation cover prior to the introduction of large-scale irrigation in 2012, followed by a substantial increase in vegetation that peaked around 2016–2017 before stabilizing in subsequent years. The analysis demonstrates how satellite remote sensing can effectively monitor long-term environmental change and the landscape response to irrigation-driven agricultural development.",
+        file:
+        "assets/images/NDVI_Difference_Map.html"
+    }
+ 
 ];
 
 let currentESIILWork = 0;
