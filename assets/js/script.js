@@ -120,6 +120,17 @@ const esiilProjects = [
 
         file:
         "assets/images/fairfield_plot.html"
+    },
+
+ {
+        title:
+        "NDVI Time-Series Analysis of Vegetation Change",
+
+        description:
+        "Analyzed over two decades of MODIS NDVI observations to assess vegetation change in Tubarjal Valley, Saudi Arabia. The workflow involved raster preprocessing, temporal aggregation, NDVI change detection, and interactive visualization using Python, xarray, Pandas, hvPlot, and HoloViews within a GitHub Codespaces Jupyter Notebook environment.",
+
+        file:
+        "assets/images/fairfield_plot.html"
     }
 
 ];
