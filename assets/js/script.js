@@ -139,7 +139,7 @@ const esiilProjects = [
         description:
         "Analyzed over two decades of MODIS NDVI satellite observations to assess long-term vegetation dynamics in Tubarjal Valley, Saudi Arabia. The time-series revealed relatively low vegetation cover prior to the introduction of large-scale irrigation in 2012, followed by a substantial increase in vegetation that peaked around 2016–2017 before stabilizing in subsequent years. The analysis demonstrates how satellite remote sensing can effectively monitor long-term environmental change and the landscape response to irrigation-driven agricultural development.",
         file:
-        "assets/images/NDVI_Difference_Map.html"
+        "assets/images/Tubarjal.html"
     }
  
 ];
