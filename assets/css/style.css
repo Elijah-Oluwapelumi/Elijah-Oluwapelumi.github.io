@@ -455,7 +455,7 @@ RESEARCH PORTFOLIO GRID
 
 .project-card-image {
     height: 240px;
-    padding: 0px;
+    padding: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
