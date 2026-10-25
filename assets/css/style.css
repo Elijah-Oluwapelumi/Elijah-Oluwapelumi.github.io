@@ -453,13 +453,14 @@ RESEARCH PORTFOLIO GRID
     border-color: #2f855a;
 }
 
-.project-card-image {
+ .project-card-image {
     height: 240px;
     padding: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #0d1b2a;
+    overflow: hidden;
 }
 
 .project-card-image img {
