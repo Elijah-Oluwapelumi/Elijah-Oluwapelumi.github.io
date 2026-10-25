@@ -1154,54 +1154,51 @@ ACHIEVEMENTS, AWARDS & HONOURS
 
 }
 
+ 
 /* =====================================================
 FOOTER / CONTACT
 ===================================================== */
 
-footer{
-
-    background:#06111c;
-
-    padding:100px 0 40px;
-
-    text-align:center;
-
+footer {
+    background: #06111c;
+    padding: 100px 0 40px;
+    text-align: center;
 }
 
-footer h2{
-
-    font-size:40px;
-
-    margin-bottom:20px;
-
-    color:#ffffff;
-
+footer h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #ffffff;
 }
 
-.footer-text{
-
-    max-width:700px;
-
-    margin:0 auto 60px;
-
-    color:#cfcfcf;
-
-    line-height:1.8;
-
+.footer-text {
+    max-width: 700px;
+    margin: 0 auto 60px;
+    color: #cfcfcf;
+    line-height: 1.8;
 }
 
- 
+/* Arrange contact cards horizontally */
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 25px;
+    margin-bottom: 60px;
+}
+
+/* Individual contact cards */
 .contact-card {
     display: block;
+    min-width: 0;
+    box-sizing: border-box;
     background: #13283b;
-    padding: 30px 20px;
+    padding: 30px 15px;
     border-radius: 18px;
     transition: .35s;
     border: 1px solid rgba(255,255,255,.05);
     text-decoration: none;
     color: inherit;
-    min-width: 0;
-    box-sizing: border-box;
+    overflow-wrap: anywhere;
 }
 
 .contact-card:hover {
@@ -1222,6 +1219,7 @@ footer h2{
     line-height: 1.6;
     margin: 0;
     overflow-wrap: anywhere;
+    word-break: normal;
 }
 
 .contact-card:focus-visible {
@@ -1229,27 +1227,35 @@ footer h2{
     outline-offset: 4px;
 }
 
-
-footer hr{
-
-    border:none;
-
-    height:1px;
-
-    background:rgba(255,255,255,.08);
-
-    margin:40px 0 30px;
-
+/* Stack cards on smaller screens */
+@media (max-width: 900px) {
+    .contact-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }
 
-.copyright{
+@media (max-width: 500px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
 
-    color:#9ca3af;
+    footer h2 {
+        font-size: 32px;
+    }
+}
 
-    font-size:15px;
+footer hr {
+    border: none;
+    height: 1px;
+    background: rgba(255,255,255,.08);
+    margin: 40px 0 30px;
+}
 
-    line-height:1.8;
-
+.copyright {
+    color: #9ca3af;
+    font-size: 15px;
+    line-height: 1.8;
 }
 
 
